@@ -1,0 +1,18 @@
+/* 번역 HTML 원본에 덧입히는 스타일: 아이폰 폭 넘침 방지 + 다크모드 */
+html,body{max-width:100%;overflow-x:hidden}
+img,video{max-width:100%!important}
+img[height],video[height]{height:auto!important}
+table{max-width:100%!important}pre{white-space:pre-wrap}
+.bm-top{display:flex;justify-content:space-between;align-items:center;max-width:430px;margin:0 auto;padding:calc(12px + env(safe-area-inset-top)) 18px 0;font:600 14px/1.4 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;color:#5d6268}
+.bm-top a{color:inherit;text-decoration:none}
+@media (prefers-color-scheme:dark){
+ :root{--bg:#101214;--ink:#eceee9;--sub:#a0a59c;--line:#2a2e33;color-scheme:dark}
+ body{background:#101214!important;color:#eceee9}
+ .lead,.card,details{background:#1a1d21!important}
+ details{color:#c9cdc5!important}
+ .bar{background:#2a2e33!important}
+ a{color:#e7f7a0}
+ .btn{color:#eceee9!important;border-color:#eceee9!important}.btn.alt{border-color:#5d6268!important;color:#a0a59c!important}
+ hr{border-top-color:#2a2e33!important}
+ .bm-top{color:#a0a59c}
+}
