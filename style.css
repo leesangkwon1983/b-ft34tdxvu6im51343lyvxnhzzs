@@ -22,7 +22,7 @@ code{background:var(--soft);padding:1px 5px;border-radius:5px;font-size:.92em}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:18px;padding:28px 20px;text-align:center;color:var(--sub);font-size:15.5px}
 footer{color:var(--sub);font-size:12.5px;text-align:center;margin-top:28px;line-height:1.6}
 
-/* 칸(비트마인 / 미국 장) 구분 */
+/* 칸 구분(칸이 여럿일 때) */
 .sec{margin:8px 0 28px;padding:4px 0 0}
 .sec + .sec{border-top:1px solid var(--line);padding-top:22px}
 .sec-h{margin:0 2px 14px}
@@ -30,6 +30,4 @@ footer{color:var(--sub);font-size:12.5px;text-align:center;margin-top:28px;line-
 .sec-h .sub{margin:4px 0 0}
 .sec-more{margin:10px 2px 0;font-size:14.5px}
 .sec-more a{font-weight:700;text-decoration:none}
-.sec[data-section="us"] .sec-h .eyebrow{color:var(--ac)}
 .sec[data-section="bitmine"] .post{border-left:3px solid var(--lime)}
-.sec[data-section="us"] .post{border-left:3px solid var(--ac)}
